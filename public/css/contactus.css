@@ -1,0 +1,113 @@
+/*.header-wrapper.reachus-wrapper{
+background:url("../images/market-bg-pic.svg") center no-repeat;
+background-size:cover;
+}
+*/
+.reachus-main-section{
+margin-top:-160px;
+}
+.reachus-panel{
+background-color:#F9F9F9;
+width:90%;
+border-radius:5px;
+margin:0 auto;
+padding:1rem;
+}
+.reachus-breadcrumb{
+color:#fff;
+display:block;
+font-weight:800;
+font-size:var(--xl-font);
+background:#001029;
+}
+
+.access .fa{
+display:block;
+font-size:1.4rem;
+padding:0.5rem;
+text-align:center;
+}
+.access-row{
+text-align:center;
+}
+.access{
+margin-bottom:2rem;
+}
+.access-icons a{
+font-size:var(--sm-font);
+color:#000;
+}
+.access.access-icons .fa{
+display:inline-block;
+color:#000;
+}
+/*.access:first-child{
+text-align:center;
+}*/
+.customer-feedback{
+margin-bottom:1rem;
+}
+.customer-feedback input,.customer-feedback textarea{
+text-align:center;
+padding:0.6rem;
+outline:none;
+box-shadow:none;
+border:1px solid #000;
+border-radius:8px;
+background:#ddd;
+width:80%;
+margin:0.5rem 0 0 0;
+}
+.customer-feedback textarea{
+height:80px;
+line-height:50px;
+overflow:hidden;
+}
+
+.customer-feedback .fa{
+display:block;
+color:#000;
+}
+.customer-feedback .chat-btn{
+font-size:80%;
+background:#010216;
+width:70px;
+font-weight:400;
+color:#fff;
+padding:0.6rem;
+border-radius:15px;
+display:block;
+margin:0.5rem auto;
+text-align:center;
+border:none;
+}
+
+
+
+
+
+/*for tablet devices*/
+@media(min-width:380px){
+
+}
+
+/*for desktop devices*/
+@media(min-width:650px){
+
+.reachus-breadcrumb{
+text-align:center;
+}
+.reachus-panel .access + .access{
+border-left:2px solid #ddd;
+}
+
+.access-row{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-between;
+}
+.access{
+flex:32%;
+text-align:center;
+}
+}

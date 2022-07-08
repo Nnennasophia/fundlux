@@ -1,0 +1,1079 @@
+@import url("boiler-plate.css");
+@import url("header.css");
+@import url("market.css");
+@import url("signup.css");
+@import url("aboutus.css");
+@import url("signin.css");
+@import url("contactus.css");
+@import url("pricing.css");
+@import url("whatweinvestin.css");
+@import url("footer.css");
+/*Fundlux landing page styles */
+/*loading styles*/
+.loading-page{
+background:#efefea;
+height:100vh;
+width:100%;
+position:fixed;
+z-index:2010;
+display:flex;
+}
+.loading-page .fa{
+margin:auto;
+font-size:4rem;
+font-weight:800;
+color:#8C6005;
+}
+
+.stop-loading{
+ display:none;
+}
+
+/*scrollTop styles*/
+.scrollTop{
+position:relative;
+}
+#scrollTop{
+position:fixed;
+right:20px;
+bottom:50px;
+display:flex;
+height:45px;
+width:45px;
+background:orange;
+border-radius:50%;
+cursor:pointer;
+box-shadow:0px 1px 3px rgba(0,0,0,0.7);
+z-index:2002;
+visibility:hidden;
+animation:bounce-up 2s infinite;
+}
+
+@keyframes bounce-up{
+  0%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(20%);
+  }
+  100%{
+    transform:translateY(0);
+  }
+}
+
+#scrollTop .fa{
+margin:auto;
+color:#fff;
+font-weight:600;
+font-size:var(--md-font);
+}
+
+
+.header-section.banner-section{
+background:linear-gradient(116.87deg, #9F8C45 8.03%, #FFFFFF 37.42%, #EA8FD6 66.81%);
+background-clip: text;
+color:#fff;
+font-size:var(--xl-font);
+font-weight:800;
+padding:0.4rem;
+margin:auto;
+text-fill-color: transparent;
+-webkit-text-fill-color:transparent;
+-webkit-background-clip: text;
+}
+.main-site-section{
+margin-top:-35px;
+}
+.bitcoin-logo-log{
+background-color:#010216;
+width:90%;
+border-radius:5px;
+margin:0 auto;
+padding:0.2rem;
+}
+
+
+.get-started-button{
+    padding:0.6rem;
+    background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+    color:#fff;
+    -webkit-text-fill-color:#fff;
+    border-radius:5px;
+    font-weight:400;
+    font-size:40%;
+    display:block;
+    text-align:center;
+    width:130px;
+    margin:1rem 0 8rem 0;
+    z-index:1004;
+    }
+   
+/*Investement section styles*/
+  .invest-and-trade-section{
+   font-size:var(--md-font);
+   font-weight:300;
+   margin-top:50px;
+   padding:2rem;
+   color:#000;
+  }
+  .stock-investment{
+  border:1px solid #ddd;
+  border-radius:4px;
+  padding:0.4rem 1.2rem 1.2rem 1.2rem;
+  margin:0 0 1.2rem 0;
+  /*position:relative;*/
+  display:flex;
+  flex-flow:row wrap;
+  box-shadow:1px 0px 2px rgba(0,0,0,0.5);
+}
+  .stock-investment h3{
+   font-size:1.2rem;
+   font-weight:600;
+   color:#8C6005;
+ }
+ .stock-investment p{
+  margin:0;
+  padding:0.2rem;
+  font-weight:400;
+  line-height:1.5;
+ }
+  .stock-investment .cta-btn{
+background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+color:#fff;
+width:100%;
+display:block;
+font-size:70%;
+text-align:center;
+font-weight:400;
+padding:0.7rem;
+border-radius:6px;
+margin:2rem auto;
+  }
+  /*trade-invest button*/
+  .trade-invest-bottom{
+   font-size:var(--md-font);
+   font-weight:500;
+   padding:var(--edge-gap);
+   color:#8C6005;
+    }
+    .trade-invest-bottom .bold-text{
+    font-weight:600;
+    font-size:var(--lg-font);
+    }
+  .trade-invest-bottom div{
+   margin:0 0 2rem 0;
+  }
+  .trade-invest-bottom .cta-btn{
+   padding:0.6rem;
+   background:#BF8C09;
+   background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+   color:#fff;
+   border-radius:5px;
+   display:inline-block;
+   text-align:center;
+   border:none;
+   margin-top:1rem;
+  }
+  .trade-invest-bottom .cta-btn a{
+    color:#fff;
+    font-weight:600;
+   font-size:95%;
+  }
+
+
+  /*offered services section in main-site-section*/
+  .offered-services{
+  padding:var(--edge-gap);
+  }
+   .service-lists-cards{
+    font-size:var(--md-font);
+    font-weight:300;
+    margin:0;
+    }
+
+   .invest-button{
+    padding:0.4rem;
+    background: #BF8C09;
+    background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%); /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    color:#fff;
+    border-radius:5px;
+    font-weight:400;
+    font-size:80%;
+    display:inline-block;
+    width:100px;
+    margin:2rem auto;
+    text-align:center;
+    } 
+    .offered-services h2{
+    text-align:center;
+    margin:0 0 2rem 0;
+    font-size:var(--lg-font);
+    font-weight:800;
+    color:#999;
+    }
+    .offered-services h3{
+    text-align:center;
+    font-size:var(--md-font);
+    font-weight:700;
+    }
+     .offered-services p{
+      font-size:80%;
+      font-weight:400;
+     }
+    .card-container{
+    margin:0 0 1.4rem 0;
+    padding:1.6rem;
+    border:1px solid #ddd;
+    border-radius:6px;
+    z-index:1002;
+    text-align:center;
+    }
+    .card-container figcaption*{
+    margin:0.5rem;
+    } 
+
+
+
+
+
+/* Trade tools section styles */
+.trade-tools{
+padding:var(--edge-gap);
+}
+
+.trade-tools-item dl{
+ margin:0;
+ padding:0;
+ width:100%;
+}
+
+.trade-tools dt{
+font-size:var(--md-font);
+font-weight:800;
+color:#8C6005;
+}
+.trade-tools dd{
+margin:0;
+line-height:1.5;
+}
+.trade-tools{
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+justify-content:center;
+}
+.trade-tools-img-container{
+flex-basis:100%;
+}
+.trade-tools-img-container img{
+width:100%;
+animation: bouncing-img 1.5s  infinite;
+}
+@keyframes bouncing-img {
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.aside-items{
+align-items:flex-start;
+margin:0 0 2rem 0;
+text-align:center;
+}
+.aside-items span{
+background: #FFFFFF;
+box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.11);
+border-radius:50%;
+display:inline-block;
+height:50px;
+width:50px;
+position:relative;
+}
+.aside-items img{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:100%;
+}
+
+
+
+
+/*chooseus core section*/
+.chooseus-core-section{
+font-size:var(--md-font);
+font-weight:300;
+text-align:center;
+background:#010216;
+color:#fff;
+padding:var(--edge-gap) 1rem;
+}
+.chooseus-core-section figure{
+margin:0 0 2rem 0;
+border:1px solid #fff;
+border-radius:5px;
+}
+.chooseus-core-section h2{
+text-transform:uppercase;
+font-weight:500;
+font-size:var(--md-font);
+}
+.chooseus-core-section p{
+ font-weight:400;
+ font-size:var(--sm-font);
+}
+.chooseus-core-section .image-wrapper{
+ width:40px;
+ height:40px;
+ margin:0 auto;
+}
+.chooseus-core-section .image-wrapper img{
+width:100%;
+height:100%;
+}
+.chooseus-core-section .bitcoin-image-wrapper{
+width:100%;
+}
+.chooseus-core-section .bitcoin-image-wrapper img{
+width:100%;
+cursor:pointer;
+}
+
+
+/*sub-chooseus section*/
+.chooseus-section{
+font-size:45%;
+padding:0;
+}
+.choice-menu{
+background:url("../images/btc-bg.svg") center no-repeat;
+background-size:cover;
+color:#fff;
+text-align:center;
+position:relative;
+}
+.choice-menu > p{
+font-size:var(--lg-font);
+padding:1rem 0 1rem 0;
+font-weight:800;
+}
+.payout-list-menu{
+padding:1rem;
+display:flex;
+flex-flow:row wrap;
+height:300px;
+}
+.payout-list-menu li{
+flex:1 1 48%;
+}
+.payout-list-menu img{
+width:100%;
+}
+.circle-batch{
+position:absolute;
+width:100%;
+display:flex;
+flex-flow:row wrap;
+justify-content:center;
+top:90%;
+}
+.circle-batch span{
+background:#FFFFFF;
+height:35px;
+flex-basis:35px;
+display:block;
+margin:1rem;
+border-radius:50%;
+box-shadow: 0px 4px 30px -1px rgba(0, 0, 0, 0.15);
+}
+
+.index-line-div{
+ height:50px;
+}
+
+/*sub-section*/
+.latest-transaction{
+margin:5rem 0;
+font-size:var(--md-font);
+padding:var(--edge-gap);
+}
+.latest{
+width:100%;
+}
+
+.latest-transaction .latest-items{
+background:#ddd;
+padding:0.6rem;
+border-radius:5px;
+overflow-y:scroll;
+max-height:250px;
+}
+.latest-transaction .latest-items::-webkit-scrollbar{
+background:transparent;
+border-radius:5px;
+width:10px;
+height:50px;
+}
+.latest-transaction .latest-items::-webkit-scrollbar-thumb{
+background:#B5B5B5;
+border-radius:2px;
+}
+
+.latest > p {
+font-size:var(--sm-font);
+color:#3E45FF;
+margin:2rem 0  0 0;
+}
+.latest-items figure{
+margin:0 0 0.4rem 0;
+padding:1rem;
+background:#FFFFFF;
+border-radius:5px;
+}
+.latest-items figure img{
+border-radius:6px;
+}
+.latest-items h4{
+font-size:var(--md-font);
+font-weight:500;
+}
+.items-caption span{
+ margin:0.4rem 0 0 0;
+ font-size:0.6rem;
+ display:block;
+ font-weight:bold;
+ color:#8BFDAB;
+}
+
+
+
+
+/* media-section styles */
+.media-section{
+margin:4rem 0 0 0;
+}
+.media-empty-box{
+height:200px;
+background:#333;
+margin-bottom:2rem;
+}
+.media-invest-card{
+height:250px;
+background:#999;
+padding:10rem 0  0 0;
+}
+.media-invest-button{
+    padding:0.4rem;
+    color:#fff;
+    border-radius:5px;
+    background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #0F8CFF 0%, #7C3394 51.04%, #4A058A 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    font-weight:400;
+    font-size:0.9rem;
+    display:block;
+    width:100px;
+    margin:0 auto;
+    text-align:center;
+}
+
+/* last section before footer  section*/
+
+
+
+/*affordable-pkgs-section*/
+.affordable-pkgs-section{
+font-weight:300;
+font-size:var(--md-font);
+text-align:center;
+text-transform:uppercase;
+color:#fff;
+padding:1rem;
+background:#010216;
+}
+.affordable-pkgs-section h3{
+text-align:center;
+font-weight:600;
+font-size:1.2rem;
+color:#fff;
+}
+.affordable-pkgs-section h3 + p{
+text-align:center;
+color:#fff;
+font-weight:600;
+margin:1rem;
+}
+.affordable-pkgs-section .box{
+border:1px solid #fefefe;
+border-radius:8px;
+background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+position:relative;
+padding:0.8rem;
+margin:0 0 1.4rem 0;
+}
+.affordable-pkgs-section .box .box-top{
+background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+color:#fff;
+padding:0.2rem;
+border-radius:8px 8px  0 0;
+}
+.affordable-pkgs-section .box li{
+border-bottom:1px dashed #fff;
+margin:0px 4px;
+padding:0.4rem;
+}
+.affordable-pkgs-section .box .minmax-section{
+display:flex;
+justify-content:space-between;
+padding-top:0.6rem;
+}
+.affordable-pkgs-section .box .minmax-section h5{
+font-size:0.6rem;
+font-weight:300;
+}
+.affordable-pkgs-section .box .cta-btn{
+box-shadow:none;
+border-radius:8px;
+border:1px solid #ddd;
+padding:0.6rem 1rem;
+color:#fff;
+margin:1.4rem 0 0 0;
+display:inline-block;
+background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+text-transform:uppercase;
+ font-size:80%;
+ font-weight:600;
+}
+
+
+/*tade management section*/
+.trade-management-section{
+ font-size:var(--md-font);
+ font-weight:300;
+ margin-bottom:2rem;
+ padding:2rem 1rem;
+ background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+}
+.trade-management-section .right .cta-btn{
+ padding:0.6rem;
+   background:radial-gradient(60.96% 233.66% at 19.41% -27.87%, #BF8C09 0%, #DECB1F 51.04%, #7C4B00 100%);
+   color:#fff;
+   border-radius:5px;
+   font-weight:600;
+   font-size:90%;
+   display:inline-block;
+   /*width:100px;*/
+   text-align:center;
+   margin:1rem 0 0 0; 
+   border:2px inset #ddd; 
+   transform:scale(1);
+   transition:1s ease 30ms;
+   text-transform:uppercase
+}
+.trade-management-section .right .cta-btn:hover{
+background:#000;
+transform:scale(0.9);
+}
+.trade-management-section .right{
+margin:0 0 3rem 0;
+color:#fff;
+}
+.trade-management-section .right h3{
+font-size:var(--lg-font);
+}
+.trade-management-section .right p{
+ line-height:24px;
+ font-weight:300;
+ font-size:var(--sm-font);
+}
+.left-div-container{
+margin-bottom:1rem;
+}
+.trade-management-section .left > div {
+ height:300px;
+}
+.trade-management-section .left > div .box{
+ transition:0.5s;
+ border-radius:10px;
+ box-shadow:1px 0px 2px #fefefe,-1px 0px 2px #fefefe;
+ position:relative;
+ height:100%;
+ color:#010216;
+ z-index:998;
+ margin-bottom:1rem;
+}
+/*.trade-management-section .left .box{
+border:1px solid green;
+}
+*/
+.trade-management-section .fund-icon{
+position:absolute;
+top:30px;
+left:20px; 
+width:80%;
+transition:0.2s ease-in;
+z-index:1000;
+}
+.trade-management-section .right-arrow-icon{
+ position:absolute;
+ top:90%;
+ left:10%;
+ transition:0.2s ease-out;
+ visibility:hidden;
+ z-index:10001;
+}
+.trade-management-section .left .text-content{
+position:absolute;
+font-weight:400;
+font-size:var(--md-font);
+top:25%;
+left:0;
+transition:0.5s;
+padding:0.4rem 2rem;
+}
+.trade-management-section .left > div .box:hover{
+padding-top:0.2rem;
+background:#010216;
+color:#fff;
+}
+.trade-management-section .left > div:hover .fund-icon{
+transform:translateY(-40%);
+visibility:hidden;
+}
+.trade-management-section .left > div:hover .text-content{
+top:10%;
+color:#fff;
+}
+.trade-management-section .left > div:hover .right-arrow-icon{
+visibility:visible;
+top:85%;
+}
+
+
+
+/*Testimonial section styles*/
+.testimonial-section{
+padding:0.2rem 2rem;
+} 
+.testimonial-section > *{
+border:1px solid #999;
+border-radius:8px;
+box-shadow:2px 1px 2px rgba(0,0,0,0.25),-2px -1px 2px rgba(0,0,0,0.25);
+padding:1.4rem;
+margin-bottom:1rem;
+transform:scale(0.9);
+transform-origin:center center;
+transition:0.5s ease-out;
+}
+.testimonial-section > *:hover{
+transform:scale(1);
+background:#010216;
+color:#fff;
+}
+.testimonial-top-header{
+text-align:center;
+font-weight:500;
+font-size:var(--lg-font);
+color:#010216;
+}
+.testimonial-card .top-content{
+text-align:center;
+margin-bottom:0.8rem;
+}
+.testimonial-card .img-container{
+ border-radius:50%;
+ height:100px;
+ width:100px;
+ display:inline-block;
+ border:3px outset #eee;
+ }
+.testimonial-card .img-container img{
+width:100%;
+border-radius:inherit;
+}
+
+.testimonial-card h2{
+font-weight:400;
+font-size:var(--md-font);
+margin-left:0.2rem;
+text-transform:capitalize;
+color:#f6aa0f;
+}
+.testimonial-card .bottom-content p{
+font-size:var(--sm-font);
+font-weight:300;
+}
+.testimonial-section > *:hover .bottom-content p{
+color:#fff;
+}
+
+/*last section styles*/
+.last-section{
+background:#010216;
+color:#fff;
+font-size:var(--sm-font);
+font-weight:normal;
+line-height:1.8;
+margin:2rem 0 0 0;
+}
+.last-section h3{
+text-align:center;
+font-size:var(--lg-font);
+font-weight:400;
+text-transform:uppercase;
+}
+.last-section p{
+text-align:left;
+}
+.last-section > p{
+text-transform:uppercase;
+font-size:0.8rem;
+font-weight:300;
+text-align:center;
+}
+.last-section div > h3{
+font-size:var(--lg-font);
+margin:2rem 0 0.4rem 0;
+color:orange;
+}
+.aboutus-index-line{
+display:inline-block;
+width:5%;
+border:1px solid #FE981C; 
+background:#FE981C;
+vertical-align:middle;
+display:none;
+}
+.index-about-section{
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+gap:12%;
+padding:1rem;
+}
+.index-about-section .image-container{
+flex-basis:100%;
+}
+.index-about-section .image-container img{
+width:100%;
+-webkit-animation:rotate 5s infinite alternate;
+-moz-animation:rotate 5s infinite alternate;
+-o-animation:rotate 5s infinite alternate;
+animation:rotate 5s infinite alternate;
+}
+.last-section h3{
+font-weight:800;
+font-size:var(--xl-font);
+}
+.index-about-section p{
+line-height:30px;
+font-size:var(--sm-font);
+}
+/*keyframes for differnt browser vendors*/
+@-moz-keyframes rotate{
+0%{
+ transform:rotate(80deg);   
+}
+100%{
+transform:rotate(-80deg);
+}
+}
+@-o-keyframes rotate{
+0%{
+ transform:rotate(80deg);   
+}
+100%{
+transform:rotate(-80deg);
+}
+@-webkit-keyframes rotate{
+0%{
+ transform:rotate(80deg);   
+}
+100%{
+transform:rotate(-80deg);
+}
+}
+}
+@keyframes rotate{
+0%{
+ transform:rotate(80deg);   
+}
+100%{
+transform:rotate(-80deg);
+}
+}
+
+/*end of keyframes for different browser vendors */
+
+
+/*google map section*/
+.google-map-section{
+padding:0;
+}
+
+
+
+/* media queries styles 
+/* for tablet devices */
+@media(min-width:380px){
+/*.nav-wrapper{
+padding:1.2rem;
+}*/
+
+/*investment section styles*/
+ .invest-and-trade-section{
+ display:flex;
+ flex-flow:row wrap;
+ justify-content:space-between;
+ gap:4%;
+ }
+.order-3{
+order:3;
+ }
+ .stock-investment{
+  flex:48%;
+  }
+
+  .stock-investment .cta-btn{
+  width:150px;
+  padding-top:1rem;
+  }
+  
+  .trade-invest-bottom{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  gap:4%;
+  }
+  .trade-invest-bottom div{
+   flex:1 1 100%;
+  }
+
+
+/*This style is applicable to multiple pages including about us*/
+ .service-lists-cards{
+ display:flex;
+ flex-flow:row wrap;
+ justify-content:space-between;
+ gap:4%;
+}
+.card-container{
+ flex:1 1 48%;
+}
+
+/*chooseus core section*/
+.chooseus-core-right{
+display:flex;
+flex-flow:row wrap;
+gap:2%;
+align-items:flex-start;
+}
+.chooseus-core-right figure{
+flex:1 1 48%;
+}
+.payout-list-menu{
+height:120px;
+justify-content:space-around;
+}
+.payout-list-menu li{
+flex-basis:22%;
+}
+
+.circle-batch span{
+height:80px;
+flex-basis:80px;
+}
+.circle-batch{
+top:70%;
+}
+
+
+
+/*trade section*/
+
+/*media section*/
+.media-section{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+align-items:center;
+justify-content:space-evenly;
+}
+.media-invest-card{
+flex-basis:22%;
+}
+
+
+
+/*affordable-pkgs-section*/
+.affordable-pkgs-section .card-list-section{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+}
+.affordable-pkgs-section .box{
+flex:1 1 100%;
+}
+
+
+
+/*trade-management-section*/
+.trade-management-section{
+ display:flex;
+ flex-flow:row wrap;
+ gap:4%;
+}
+.trade-management-section > div{
+flex:1 1 100%;
+padding:1rem;
+}
+.trade-management-section .left{
+display:flex;
+flex-flow:row wrap;
+gap:1%;
+}
+.trade-management-section .left > div {
+flex:1 1 100%;
+}
+
+/*choice section styles*/
+.latest-transaction{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+justify-content:space-between;
+}
+.latest-items figure{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+
+/*Testimonial section styles*/
+.testimonial-section{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+} 
+.testimonial-section > *{
+flex-basis:100%;
+}
+
+.testimonial-card .top-content{
+display:flex;
+flex-flow:row wrap;
+justify-content:center;
+align-items:center;
+gap:4%;
+}
+
+
+.aboutus-index-line{
+ display:inline-block;
+}
+.index-about-section .image-container{
+flex-basis:80%;
+}
+}
+
+/*for desktop devices*/
+@media(min-width:650px){
+.header-section.banner-section{
+margin-top:0;
+padding:2rem;
+}
+/*affordable-pkgs-section*/
+.affordable-pkgs-section .box{
+flex:1 1 48%;
+}
+
+/*investement section styles*/
+.stock-investment{
+  flex:1 1 28%;
+}
+
+.trade-invest-bottom div{
+  flex:48%;
+}
+
+/*Trade tools sectiom*/
+.trade-tools{
+gap:4%;
+}
+.trade-tools-item{
+flex:1 1 48%;
+}
+.aside-items{
+display:flex;
+flex-flow:row wrap;
+text-align:left;
+}
+
+/*chooseus section*/
+.chooseus-core-section{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+align-items:center;
+}
+.chooseus-core-section > div{
+flex:1 1 48%;
+}
+.card-container{
+flex-basis:30%;
+}
+
+.circle-batch{
+gap:4rem;
+}
+
+.circle-batch span{
+height:100px;
+flex-basis:100px;
+}
+.index-line-div{
+height:120px;
+}
+
+/*subsection styles*/
+.latest{
+flex:1 1 48%;
+}
+
+/*trade management section*/
+.trade-management-section .left{
+gap:4%;
+}
+.trade-management-section .left > div {
+flex:1 1 48%;
+}
+
+
+/*last section*/
+.index-about-section{
+justify-content:center;
+align-items:flex-start;
+}
+.index-about-section .image-container{
+flex:30%;
+}
+.index-about-section > div{
+flex:48%;
+}
+.last-section div > h3{
+margin:0;
+text-align:left;
+}
+
+/*Testimonial section*/
+.testimonial-section > *{
+flex:48%;
+}
+
+}

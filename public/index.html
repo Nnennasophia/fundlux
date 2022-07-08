@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link href="./recent-font/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet"/>
+    <title>fundlux</title>
+</head>
+<body>
+    <!-- Welcome to funlux landing page developed by solomon chiakonam joboson -->
+    <!-- The site header naviagtion -->
+    <div class="loading-page">
+      <span class="fa fa-spinner fa-pulse fa-3x fa-fw text-primary"></span>
+    </div>
+    
+    <div class="index-header-wrapper header-wrapper" id="header-wrapper">
+    <header class="header">
+      <a href="#main-menu" id="toggle-menu" class="toggle-menu">
+        <span class="sr-only">Open Main Menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+      </a>
+        <nav class="nav-wrapper">
+            <ul class="nav-list main-menu" id="main-menu">
+                <a href="#toggle-menu" class="close-menu" id="close-menu">
+                  <span class="sr-only">Close Main Menu</span>
+                  <span class="fa fa-times" aria-hidde="true"></span>
+                </a>
+                <li><a href="./index.html">Home</a></li>
+                <li class="list-item dropdown"><a href="#">Our Company <span class="fa fa-caret-down" aria-hidden="true"></span></a>
+                    <!-- drop down list -->
+                    <ul class="dropdown-menu" id="dropdown-menu-1">
+                        <li><a href="./ourcompany/ourteam.html">Our Team</a></li>
+                        <li><a href="./ourcompany/ourservices.html">Our Services</a></li>
+                        <li><a href="./ourcompany/legal.html">Legal</a></li>
+                        <li><a href="./ourcompany/ourpolicy.html">Our Policy</a></li>
+                    </ul>
+                    <!--END of dropdown -->
+                </li>
+                <li class="list-item"><a  href="#">The Market</a></li>
+                <li class="list-item"><a  href="./pricing.html">Pricing</a></li>
+                <li class="list-item"><a  href="./whatweinvestin.html">What We Invest In</a></li>
+                <li class="list-item dropdown"><a  href="#">About Us
+                    <span class="fa fa-caret-down" aria-hidden="true"></span></a>
+
+                    <!-- drop down list/ second order of navigation -->
+                    <ul class="dropdown-menu extra-width" id="dropdown-menu-2">
+                        <li><a href="./aboutus/history.html">History</a></li>
+                        <li><a href="./aboutus/wearedifferent.html">How we are different</a></li>
+                        <li><a href="./aboutus/fiduciary.html">Fiduciary</a></li>
+                        <li><a href="./aboutus/clienteducation.html">Client education and services</a></li>
+                        <li><a href="./aboutus/ourteam.html">Our team</a></li>
+                        <li><a href="./aboutus/assetsundermgt.html">Assets under management</a></li>
+                        <li><a href="./aboutus/privacypol.html">Privacy Policy</a></li>
+                    </ul>
+                    <!--END of dropdown -->
+
+                </li>
+                <li class="list-item"><a  href="./signup.html">Sign Up</a></li>
+                <li class="list-item signin-cta"><a  href="./signin.html">Login</a></li>
+                <li class="list-item"><a  href="./contactus.html">Contact us</a></li>
+            </ul>
+        </nav>
+       <!--  <a href="#toggle-menu" tabindex="-1" class="backdrop" aria-hidden></a> -->
+    </header>
+     <section class="header-section banner-section">
+         Optimizing <span class="caption-style"> Your </span><br>
+         Finance <span class="caption-style"> For </span> <br>
+         Prof<span class="caption-style">its</span>
+         <a href="./signup.html" class="get-started-button">Get Started</a>
+    </section>
+</div>
+
+
+ <main class="main-site-section">
+  <!-- trading view -->
+  <section style="border:1px solid #010216" class="bitcoin-logo-log" style="background-color:transparent">
+      <div class="btc-marque" style="background-color:transparent;">
+    <!-- TradingView Widget Starts -->
+<div class="tradingview-widget-container" style="z-index:999;"></div>
+ 
+  <div class="tradingview-widget-container__widget">
+  </div>
+  
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+</div>
+<!--END of Trading View Widget-->
+</section>
+
+<!-- other sections -->
+      <!-- Trade and invest section bregins -->
+      <section class="invest-and-trade-section top">
+        <div class="stock-investment">
+          <h3>Stocks and ETFs</h3>
+          <p>Invest in stocks with 0% commission.
+            Buy in bulk or just a fraction.
+          </p>
+          <a class="cta-btn" href="./signup.html">
+           Invset in Stocks
+          </a>
+        </div>
+        <div class="stock-investment order-3" >
+          <h3>Buy Cryptocurrencies</h3>
+          <p>Buy, sell and store Bitcoin and other leading cryptos with ease
+          </p>
+          <a class="cta-btn" href="./signup.html">
+          Buy Cryptocurrencies
+          </a>
+        </div>
+        <div class="stock-investment">
+          <h3>CFD Trading</h3>
+          <p>Go long or short on FX from just 1 pip trade commodities and indices with flexible leverage
+          </p>
+          <a class="cta-btn" href="./signup.html">
+           Trade Now
+          </a>
+         </div>
+      </section>
+
+  <section class="trade-invest-bottom">
+  <div class="trade-invest-text text" data-aos="fade-left">
+    <p>
+      <b class="bold-text">Trade and invest</b> in top stocks and ETFs. Trade currency pairs, Indices and Commodities via CFDs. Investing in the financial markets has never been easier.
+    </p>
+   <button class="cta-btn"> <a href="./signup.html" >Start Trading</a></button>
+    <div style="border-left: 1px solid black;margin-top: 40px;padding: 15px;">
+      <h1 id="demo"></h1>
+      <h5>TRADES OPENED ON FUNDLUX FINANCIALS</h5>
+      <script>
+
+        let interval = setInterval(function(){
+          let now = new Date();
+          let show = Math.floor(now/20000);
+          function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+          }
+
+          val = numberWithCommas(show);
+
+          document.getElementById("demo").innerHTML = val;
+      },1000)
+      </script>
+  </div>
+</div>
+  <div class="trade-view-container text" data-aos="fade-right">
+    <style>
+      .tradingview-widget-container{
+        display: none;
+      }
+      .active6{
+        display: block;
+      }
+    </style>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container active6" style="margin-bottom: 20px;" id="widget1">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+      {
+      "symbol": "NASDAQ:TSLA",
+      "width": "100%",
+      "locale": "en",
+      "colorTheme": "light",
+      "isTransparent": false
+    }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container active6" style="margin-bottom: 20px;" id="widget2">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+      {
+      "symbol": "NASDAQ:AAPL",
+      "width": "100%",
+      "locale": "en",
+      "colorTheme": "light",
+      "isTransparent": false
+    }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container" style="margin-bottom: 20px;" id="widget3">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+      {
+      "symbol": "NASDAQ:AMZN",
+      "width": "100%",
+      "locale": "en",
+      "colorTheme": "light",
+      "isTransparent": false
+    }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container" style="margin-bottom: 20px;" id="widget4">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+      {
+      "symbol": "NASDAQ:MSFT",
+      "width": "100%",
+      "locale": "en",
+      "colorTheme": "light",
+      "isTransparent": false
+    }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container" style="margin-bottom: 20px;" id="widget5">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+      {
+      "symbol": "NASDAQ:NFLX",
+      "width": "100%",
+      "locale": "en",
+      "colorTheme": "light",
+      "isTransparent": false
+    }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container" style="margin-bottom: 20px;" id="widget6">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+      {
+      "symbol": "NASDAQ:FB",
+      "width": "100%",
+      "locale": "en",
+      "colorTheme": "light",
+      "isTransparent": false
+    }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+
+
+    <script>
+      let cs = 0;
+      let ts = 6;
+
+      function next(){
+          document.getElementById("widget" + (cs + 1)).classList.remove("active6");
+          document.getElementById("widget" + (cs + 2)).classList.remove("active6");
+          cs = (ts + cs + 2) % ts;
+          document.getElementById("widget" + (cs + 1)).classList.add("active6");
+          document.getElementById("widget" + (cs + 2)).classList.add("active6");
+      }
+
+      setInterval(function(){
+          next();
+      }, 10000);
+
+    </script>
+  </div>
+</section>
+       <!-- Trade and invest section ends -->
+    
+    <!-- offered service section begins -->
+    <section class="offered-services">
+        <h2>What We Do</h2>
+        <div class="service-lists-cards">
+            <figure class="card-container">
+                <img src="./images/binary.svg" width="30" height="30"/>
+                <h3>Binary Option</h3>
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta consectetur sit,adipisicing elit. Soluta consectetur sit</p>
+                    <a class="invest-button" href="./signup.html">Invest</a>
+                </figcaption>
+            </figure>
+            <figure class="card-container">
+                <img src="./images/etf-icon.svg" width="30" height="30">
+                <h3>Stocks &amp; ETF</h3
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta consectetur sit,adipisicing elit. Soluta consectetur sit</p>
+                    <a class="invest-button" href="./signup.html">Invest</a>
+                </figcaption>
+            </figure>
+            <figure class="card-container">
+                <img src="./images/data-icon.svg" width="30" height="30"/>
+                <h3>Binary Option</h3>
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta consectetur sit,adipisicing elit. Soluta consectetur sit</p>
+                    <a class="invest-button" href="./signup.html">Invest</a>
+                </figcaption>
+            </figure>
+        </div>
+     </section>
+     <!-- end of offered service section -->
+
+     <!-- Trade tools section begins -->
+     <section class="trade-tools">
+       <div class="trade-tools-item">
+        <dl> 
+            <div class="aside-items">
+            <span><img src="./images/aside1-icon.svg" width="30" height="30"></span>
+            <div>
+            <dt>Trade with crypto and digital assets in realtime</dt>
+            <dd>Our Trading Panel is optimised to provide real market<br>
+             and data allows trade with digital assets and <br>
+              cryptocurrencies with ease and profits
+            </dd>
+            </div>
+            </div>
+            <div class="aside-items">
+            <span><img src="./images/aside2-icon.svg" width="30" height="30"></span>
+            <div>
+            <dt>Buy and Sell Cryptocurrency assets with HoluEX</dt>
+            <dd>
+                Buy and Sell USDT, BNB, DOGE, ADA <br>
+                and other currencies comfortable with fair <br>
+                market prices
+            </dd>
+           </div>
+           </div>
+           <div class="aside-items">
+           <span><img src="./images/aside2-icon.svg" width="30" height="30"></span>
+            <div>
+            <dt>Trade and Exchange 24/7</dt>
+            <dd>Exchange anything and anywhere with our desktop <br>
+            and mobile friendly user interface.
+            </dd>
+           </div>
+           </div>
+           </dl>
+       </div>
+       <div class="trade-tools-item trade-tools-img-container">
+         <img src="./images/bouncing-image.svg" >
+       </div>
+       </section>
+       <!-- end of trade tools section -->
+
+
+       <!-- why choose Us section begins-->
+       <!-- choose us core section -->
+       <section class="chooseus-core-section">
+        <div class="chooseus-core-right">
+        <figure>
+          <div class="image-wrapper"><img src="https://globalbitfare.com/images/strong-security.png" alt="security-image"></div>
+            <h2>Strong Security</h2>
+            <figcaption>
+              <p>Protection against DDoS attacks <br>
+                Full data encryption.
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+          <div class="image-wrapper"><img src="https://globalbitfare.com/images/world-coverage.png" alt="security-image"></div>
+            <h2>World Coverage</h2>
+            <figcaption>
+              <p>Providing Services in 99% countries <br>
+                around the globe.
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+          <div class="image-wrapper"><img src="https://globalbitfare.com/images/payment-options.png" alt="security-image"></div>
+            <h2>Payment Options</h2>
+            <figcaption>
+              <p>Popular Methods:Bitcoin,<br>Etheruem 
+                Skrill.
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+          <div class="image-wrapper"><img src=" https://globalbitfare.com/images/mobile-app.png" alt="security-image"></div>
+            <h2>Mobile Friendly</h2>
+            <figcaption>
+              <p>Our User Dashboard is Made<br>
+              to match all Mobile resolution.
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+          <div class="image-wrapper"><img src="https://globalbitfare.com/images/cost-efficiency.png" alt="security-image"></div>
+            <h2>Mobile Friendly</h2>
+            <figcaption>
+              <p>Reasonable trading fees for traders<br>
+              and all market makers.
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+          <div class="image-wrapper"><img src="https://globalbitfare.com/images/high-liquidity.png" alt="security-image"></div>
+            <h2>High Liquidity</h2>
+            <figcaption>
+              <p>Fast access to high liquidity orderbook<br>
+              for top currency pairs.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="chooseus-core-left">
+          <div class="bitcoin-image-wrapper">
+            <img src="./images/bitcoin-image.webp" alt="bitcoin image">
+          </div>
+        </div>
+          
+       </section>
+
+       <section class="chooseus-section">
+         <div class="choice-menu">
+           <p>Why Choose Us</p>
+           <ul class="payout-list-menu">
+             <li><img src="./images/swift-pay1.svg" width="30" height="30">
+              <p>Swift Payout</p>
+             </li>
+             <li><img src="./images/swift-pay2.svg" width="30" height="30">
+              <p>Swift Payout</p>
+             </li>
+             <li><img src="./images/swift-pay2.svg" width="30" height="30">
+              <p>Swift Payout</p>
+             </li>
+             <li><img src="./images/swift-pay2.svg" width="30" height="30">
+              <p>Swift Payout</p>
+             </li>
+           </ul>
+           <div class="circle-batch">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+           </div>
+         </div>
+        
+         <!-- space div -->
+         <div class="index-line-div"></div>
+
+         <div class="latest-transaction">
+           <div class="latest latest-deposits">
+             <p>Latest Deposits</p>
+             <div class="latest-items">
+               <figure>
+                 <img src="./images/avatar2.svg" width="40" height="40">
+                 <h4 class="author">wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+               <figure>
+                 <img src="./images/avatar3.svg" width="40" height="40">
+                 <h4 class="author">***wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+               <figure>
+                 <img src="./images/avatar4.svg" width="40" height="40">
+                 <h4 class="author">***wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+               <figure>
+                 <img src="./images/avatar1.svg" width="40" height="40">
+                 <h4 class="author">***wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+             </div>
+           </div>
+           <div class="latest latest-withdrawals">
+             <p>Latest Withdrawals</p>
+             <div class="latest-items">
+               <figure>
+                 <img src="./images/avatar2.svg" width="40" height="40" >
+                 <h4 class="author">wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+               <figure>
+                 <img src="./images/avatar3.svg" width="40" height="40">
+                 <h4 class="author">***wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+               <figure>
+                 <img src="./images/avatar4.svg" width="40" height="40">
+                 <h4 class="author">***wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+               <figure>
+                 <img src="./images/avatar4.svg" width="40" height="40">
+                 <h4 class="author">***wrwmgnJNdjfji2</h4>
+                 <figcaption class="items-caption">
+                   <p>59,000.45</p>
+                   <span>4.494 BTC</span>
+                 </figcaption>
+               </figure>
+             </div>
+           </div>
+         </div>
+       </section>
+
+       <!-- why choose us section ends -->
+
+       <!-- Bitcoin calculator -->
+        <section style="padding:0;margin:0" class="bitcoin-calculator bit-calc-widget">
+          <!-- Crypto Converter ⚡ Widget --><crypto-converter-widget shadow symbol live background-color="#010216" border-radius="0" fiat="united-states-dollar" crypto="bitcoin" amount="1" decimal-places="2"></crypto-converter-widget><a style="color:darkblue;font-size:1rem;text-align:center;display:block;" href="https://currencyrate.today/" target="_blank" rel="noopener">Currency rate today</a><script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"></script><!-- /Crypto Converter ⚡ Widget -->
+       </section>
+
+       <!-- <section class="media-section">
+           <div class="media-empty-box"></div>
+           <div class="media-invest-card">
+            <a class="media-invest-button" href="#">Invest</a>
+           </div>
+       </section> -->
+
+       <section class="affordable-pkgs-section skew-cards">
+        <h3>Affordable Packages</h3>
+       <p><span class="aboutus-index-line"></span>
+        choose your preferable plans for investment<span class="aboutus-index-line"></span></p>
+        <div class="card-list-section">
+          <div class="box">
+            <div class="box-top">
+            <h4>Starter</h4>
+            <p>Weekly 100% for 4 times</p>
+            </div>
+            <div class="canvas-line"></div>
+            <div style="background:#010216;border-radius:0  0 8px 8px;padding:1rem;" class="box-bottom">
+            <ul>
+              <li>Weekly Return</li>
+              <li>For 4 Times</li>
+              <li>100% Rio Each Time</li>
+            </ul>
+            <div class="minmax-section">
+              <div class="min-section">
+                <h5>minimum</h5>
+                <p>&dollar;100</p>
+              </div>
+              <div class="min-section">
+                <h5>maximum</h5>
+                <p>&dollar;10000</p>
+              </div>
+            </div>
+             </div>
+            <a class="cta-btn" href="./signup.html">sign up</a>
+          </div>
+
+          <div class="box">
+            <div class="box-top">
+            <h4>Silver</h4>
+            <p>Weekly 100% for 4 times</p>
+            </div>
+            <div class="canvas-line"></div>
+            <div style="background:#010216;border-radius:0  0 8px 8px;padding:1rem;" class="box-bottom">
+            <ul>
+              <li>Weekly Return</li>
+              <li>For 4 Times</li>
+              <li>100% Rio Each Time</li>
+            </ul>
+            <div class="minmax-section">
+              <div class="min-section">
+                <h5>minimum</h5>
+                <p>&dollar;10000</p>
+              </div>
+              <div class="min-section">
+                <h5>maximum</h5>
+                <p>&dollar;40000</p>
+              </div>
+            </div>
+             </div>
+            <a class="cta-btn" href="./signup.html">sign up</a>
+          </div>
+
+          <div class="box">
+            <div class="box-top">
+            <h4>Gold</h4>
+            <p>Weekly 100% for 4 times</p>
+            </div>
+            <div class="canvas-line"></div>
+            <div style="background:#010216;border-radius:0  0 8px 8px;padding:1rem;" class="box-bottom">
+            <ul>
+              <li>Weekly Return</li>
+              <li>For 4 Times</li>
+              <li>100% Rio Each Time</li>
+            </ul>
+            <div class="minmax-section">
+              <div class="min-section">
+                <h5>minimum</h5>
+                <p>&dollar;40000</p>
+              </div>
+              <div class="min-section">
+                <h5>maximum</h5>
+                <p>&dollar;55000</p>
+              </div>
+            </div>
+             </div>
+            <a class="cta-btn" href="./signup.html">sign up</a>
+          </div>
+          <div class="box">
+            <div class="box-top">
+            <h4>Platinum</h4>
+            <p>Weekly 100% for 4 times</p>
+            </div>
+            <div class="canvas-line"></div>
+            <div style="background:#010216;border-radius:0  0 8px 8px;padding:1rem;" class="box-bottom">
+            <ul>
+              <li>Weekly Return</li>
+              <li>For 4 Times</li>
+              <li>100% Rio Each Time</li>
+            </ul>
+            <div class="minmax-section">
+              <div class="min-section">
+                <h5>minimum</h5>
+                <p>&dollar;80000</p>
+              </div>
+              <div class="min-section">
+                <h5>maximum</h5>
+                <p>&dollar;400000</p>
+              </div>
+            </div>
+             </div>
+            <a class="cta-btn" href="./signup.html">sign up</a>
+          </div>
+          <div class="box">
+            <div class="box-top">
+            <h4>Diamond</h4>
+            <p>Weekly 100% for 4 times</p>
+            </div>
+            <div class="canvas-line"></div>
+            <div style="background:#010216;border-radius:0  0 8px 8px;padding:1rem;" class="box-bottom">
+            <ul>
+              <li>Weekly Return</li>
+              <li>For 4 Times</li>
+              <li>100% Rio Each Time</li>
+            </ul>
+            <div class="minmax-section">
+              <div class="min-section">
+                <h5>minimum</h5>
+                <p>&dollar;400000</p>
+              </div>
+              <div class="min-section">
+                <h5>maximum</h5>
+                <p>&dollar;1000000</p>
+              </div>
+            </div>
+             </div>
+            <a class="cta-btn" href="./signup.html">sign up</a>
+          </div>
+        </div>
+       </section>
+
+      
+       <section class="trade-management-section">
+         <div class="right">
+          <h3>We set the pace, others follow</h3>
+           <p>
+             As high-conviction investors, we refuse to follow the herd. Instead, we focus on stocks that are out of favour with mainstream investors, as we believe that these offer the greatest potential for long-term gains. This is because stocks that are popular tend to be overvalued – while out-of-favour stocks are often too cheap. We aim to exploit this inefficiency for our shareholders.
+           </p>
+          <a class="cta-btn" href="#"> View More</a>
+         </div>
+          <div class="left">
+            <div class="left-div-container">
+              <div class="box">
+               <div class="fund-icon"><img src="./images/aside1-icon.svg"></div>
+               <div class="text-content">
+               <h3>Asset Management</h3> 
+               <p>We are a trusted advisor to our clients, assisting them in developing
+               and accessing alternatives to meet their strategic objectives
+                </p>
+              </div>
+                <div class="right-arrow-icon"><span class="fa fa-arrow-right"></span></div>
+              </div>
+            </div>
+            <div class="left-div-container">
+              <div class="box">
+                <div class="fund-icon"><img src="./images/aside1-icon.svg"></div>
+                <div class="text-content">
+                <h3>Mutual Funds</h3>
+                <p>
+                  let the experts handle the work of making you rich.
+                </p>
+              </div>
+                <div class="right-arrow-icon"><span class="fa fa-arrow-right"></span></div>
+              </div>
+            </div>
+            <div class="left-div-container">
+              <div class="box">
+                <div class="fund-icon"><img src="./images/aside1-icon.svg"></div>
+                <div class="text-content">
+                <h3>Wealth Management</h3>
+                <p>Advising wealthy families sometimes over several generations is
+                a complex task of great responsibility</p>
+                </div>
+                <div class="right-arrow-icon"><span class="fa fa-arrow-right"></span></div>
+              </div>
+            </div>
+            <div class="left-div-container">
+              <div class="box">
+                <div class="fund-icon"><img src="./images/aside1-icon.svg"></div>
+                <div class="text-content">
+                <h3>Bokerage Account</h3>
+                <p>Your money is safe and sound and you get guaranteed returns</p>
+               </div>
+                <div class="right-arrow-icon"><span class="fa fa-arrow-right"></span></div>
+              </div>
+            </div>
+          </div>
+       </section>
+
+
+
+     <!-- Testimonials -->
+    <section>
+     <h1 class="testimonial-top-header"><span class="aboutus-index-line"></span>Testimonials<span class="aboutus-index-line"></span></h1>
+     <div class="testimonial-section">
+       <div class="testimonial-card text" data-aos="zoom-in">
+        <div class="top-content">
+        <div class="img-container">
+          <img src="./images/ourteam-img1.jpg" alt="testimonial image">
+        </div>
+        <h2 class="commentor">&commat;amenda cerny</h2>
+        </div>
+        <div class="bottom-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+       </div>
+
+       <div class="testimonial-card text" data-aos="zoom-in">
+        <div class="top-content">
+        <div class="img-container">
+          <img src="./images/ourteam-img2.jpg" alt="testimonial image">
+        </div>
+        <h2 class="commentor">&commat;Harry Lord</h2>
+        </div>
+        <div class="bottom-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+       </div>
+
+       <div class="testimonial-card text" data-aos="zoom-in">
+        <div class="top-content">
+        <div class="img-container">
+          <img src="./images/ourteam-img4.jpg" alt="testimonial image">
+        </div>
+        <h2 class="commentor">&commat;gin mark</h2>
+        </div>
+        <div class="bottom-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+       </div>
+
+       <div class="testimonial-card text" data-aos="zoom-in">
+        <div class="top-content">
+        <div class="img-container">
+          <img src="./images/ourteam-img3.jpg" alt="testimonial image">
+        </div>
+        <h2 class="commentor">&commat;john cey</h2>
+        </div>
+        <div class="bottom-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+       </div>
+     </div>
+     </section>
+
+
+
+     <!-- Aboutus -->
+     <section id="aboutus" class="last-section">
+       <h3>About Us</h3>
+       <p><span class="aboutus-index-line"></span>Most flexible cryptocurrency investement company<span class="aboutus-index-line"></span></p>
+      <div class="index-about-section">
+        <div class="image-container"><img src="./images/blockchain_white.png"></div>
+        <div>
+          <h3>Fundlux</h3>
+          <p>
+            Fundlux Investement Company is a distinctive investment Company offering our investors access to high growth investment opportunities in Bitcoin markets and other service. We implement best practice of trading &amp; mining of Bitcoins through our operations, While offering flexibility in our investment plans. Our company benefits from an extensive network of global clients.
+            
+          </p>
+        </div>
+      </div>
+     </section>
+
+   
+
+     <section class="google-map-section">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=15300%20croydon%20Dr%20Suite%20300&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:250px;width:100%;}.gmap_canvas{height:100%}</style></div></div>
+     </section>
+    </main>
+    
+      <!-- scrollTotop arrow -->
+    <section class="scrollTop">
+      <div id="scrollTop">
+      <span class="fa fa-arrow-up"></span>
+    </div>
+    </section>
+    
+     
+    <footer id="footerid">
+        <nav class="footer-nav index-footer-nav">
+            <ul class="footer-nav-item">
+                <li class="footer-nav-list"><a href="#">Contact Us</a>
+                    <!-- second navigation layer -->
+                          <ul>
+                            <li><a href="#"><span class="fa fa-map-marker" aria-hidden='true'></span></a></li>
+                            <li><a href="#"><span class="fa fa-telegram" aria-hidden='true'></span></a></li>
+                            <li><a href="#"><span class="fa fa-whatsapp" aria-hidden='true'></span></a></li>
+                            <li><a href="#"><span class="fa fa-phone" aria-hidden='true'></span></a></li>
+                        </ul> 
+                      </li>
+                <li class="footer-nav-item-nav-list"><a href="#">Explore</a>
+                      <!-- second navigation layer -->
+                      <ul>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                        <li><a href="./market.html">The Market</a></li>
+                        <li><a href="./signup.html">Sign Up</a></li>
+                        <li><a href="./contactus.html">Contact Us</a></li>
+                        <li><a href="./signin.html">Login</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="footet-nav-list"><a href="#">FAQ</a></li> -->
+                <li class="footer-nav-list">Newsletter
+                    <div class="news-letter-box">
+                    <form>
+                        <label class="newsletter-label" for="newsletter">Join Our News Letter</label>
+                        <input class="newsletter-input" type="text" id="newsletter"
+                         name="newsletter" 
+                         placeholder="Enter E-mail Address"/>
+                        <button class="join-button" type="submit"><a href="#">Join</a></button>
+                    </form>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <small class="footer-copyright">Fundlux-Finance Limited</small>
+    </footer>
+    <script src="./js/index.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+     {
+      offset:100, 
+      duration:1000,
+    }
+      );
+    </script> -->
+</body>
+</html>

@@ -1,0 +1,16 @@
+/*History styles*/
+.history-contents{
+padding:1rem;
+}
+/*.history-contents h1,.history-section{
+padding:0 2rem;
+}*/
+
+/*Tablet devices*/
+@media(min-width:380px){
+
+}
+
+
+/*Desktop devices*/
+@media(min-width:650px){}

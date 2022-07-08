@@ -1,0 +1,170 @@
+/*AboutMain styles */
+.about-main-section{
+ margin-top:-150px;
+  z-index:1001;
+}
+.about-breadcrumb{
+color:#fff;
+background:#001029;
+display:block;
+font-weight:600;
+font-size:2.5rem;
+padding:1rem 1rem 0rem 1rem;
+opacity:0.9;
+z-index:998;
+}
+
+.aboutus-log-panel{
+width:80%;
+border-radius:5px;
+margin:0 auto;
+color:#000;
+}
+
+.aboutus.service-lists-cards{
+padding:0rem;
+}
+.aboutus-log-panel .card-container{
+background:#F9F9F9;
+}
+.text-section{
+margin:0;
+padding:2rem;
+text-align:justify;
+/* border:1px solid green; */
+}
+.text-section p{
+margin:2rem 0 0 0;
+}
+.text-section p + p{
+margin-bottom:0;
+}
+.track-section{
+text-align:center;
+background:#D9D9D9;
+padding:2rem;
+font-weight:800;
+
+}
+.track-section p{
+font-size:1.4rem;
+text-transform:uppercase;
+}
+
+.team-section{
+padding:2rem;
+}
+.section-header{
+text-align:left;
+font-size:1.2rem;
+}
+.team-section-box{
+height:150px;
+background:#ccc;
+margin-bottom:1rem;
+}
+.certificate-section{
+padding:2rem 3rem;
+color:#848484;
+}
+
+.certificate-box-1{
+height:250px;
+background:#ccc;
+}
+.mission-row figure,.vision-row figure{
+margin:0;
+}
+.mission-header,.vision-header{
+margin:2rem 0 0 0;
+padding:0;
+font-weight:800;
+font-size:1rem;
+
+}
+.mission-text,.vision-text{
+padding:0;
+margin-left:0px;
+}
+
+
+
+
+/* About us media queries */
+@media(min-width:380px){
+.about-breadcrumb{
+text-align:center;
+}
+.team-section-row{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+padding:0;
+margin:0;
+}
+.track-section{
+display:flex;
+align-items:center;
+}
+.track-section p{
+text-align:center;
+/* border:1px solid red; */
+margin:0 auto;
+}
+.team-section-box{
+margin:0 0 2rem 0;
+flex-basis:48%;
+}
+.certificate-boxes{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+align-items:stretch;
+}
+.certificate-box-1,.certificate-box-2{
+flex-basis:48%;
+}
+.certificate-box-2 h5{
+padding:0;
+margin:0;
+}
+}
+
+
+@media(min-width:810px){
+
+.team-section-box{
+ flex-basis:22%;
+ height:200px;
+}
+.certificate-box-2{
+/* border:1px solid red; */
+flex-basis:68%;
+padding:0;
+}
+.certificate-box-1{
+flex-basis:24%;
+}
+.mission-row,.vision-row{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+align-items:baseline;
+}
+.mission-header,.vision-header{
+flex-basis:24%;
+text-align:right;
+}
+.mission-body,.vision-body{
+flex-basis:72%;
+/* border:1px solid forestgreen; */
+}
+.headline{
+border-bottom:2px solid #000;
+/* margin:-1rem; */
+}
+.mission-text,.vision-text{
+padding:0.5rem;
+margin-left:200px;
+}
+}

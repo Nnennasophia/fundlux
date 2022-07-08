@@ -1,0 +1,124 @@
+
+.ourcompany-team{
+}
+.ourcompany-team .member{
+margin-bottom:2rem;
+}
+.member small{
+color:#999;
+font-weight:300;
+font-size:var(--sm-font);
+text-transform:capitalize;
+}
+.ourcompany-team .team-caption{
+border:1px solid #999;
+border-radius:8px;
+max-height:200px;
+overflow:visible;
+overflow-y:scroll;
+font-size:var(--xs-font);
+font-weight:200;
+transition:all 0.5s ease;
+padding:1rem;
+}
+.member .team-caption::-webkit-scrollbar{
+background:transparent;
+border-radius:5px;
+width:6px;
+height:40px;
+}
+.member .team-caption::-webkit-scrollbar-thumb{
+background:#ccc;
+border-radius:2px;
+}
+.member .team-caption{
+font-weight:400;
+font-size:var(--sm-font);
+}
+.member .team-caption::-webkit-scrollbar{
+background:transparent;
+border-radius:5px;
+width:6px;
+height:40px;
+}
+.member ..team-caption::-webkit-scrollbar-thumb{
+background:#ccc;
+border-radius:2px;
+}
+
+
+.ourcompany-team .member .img-container{
+border:3px solid #B17304;
+height:150px;
+width:150px;
+border-radius:50%;
+}
+.ourcompany-team .member .img-container img{
+width:100%;
+border-radius:inherit;
+height:100%;
+}
+.ourcompany-page .start-financial-freedom{
+margin-top:4rem;
+}
+.ourcompany-page .start-financial-freedom .flex > *{
+text-transform:capitalize;
+font-weight:500;
+font-size:var(--md-font);
+color:#7a5406;
+text-align:center;
+}
+.ourcompany-page .flex .lg-font{
+display:block;
+font-size:var(--xl-font);
+font-weight:700;
+}
+.ourcompany-page .flex .lg-font{
+border:1px solid #ccc;
+border-radius:8px;
+}
+.ourcompany-page .flex p + a{
+border:1px solid #7a5406;
+display:block;
+padding:0.8rem;
+border-radius:8px;
+font-weight:600;
+font-size:var(--lg-font);
+}
+
+
+/*Tablet device*/
+@media(min-width:380px){
+.ourcompany-team{
+ display:flex;
+ flex-flow:row wrap;
+ justify-content:space-around;
+ align-items:flex-start;
+ gap:4%;
+}
+.ourcompany-team > * {
+flex:1 1 48%;
+}
+}
+
+/*Deesktop device*/
+@media(min-width:650px){
+.ourcompany-team{
+ justify-content:space-between;
+ align-items:flex-end;
+}
+.ourcompany-team .member .img-container{
+height:200px;
+width:200px;
+}
+.ourcompany-team > * {
+flex:1 1 22%;
+}
+.ourcompany-page .flex{
+justify-content:center;
+align-items:center;
+}
+.ourcompany-page .flex p + a{
+flex:0 0 20%;
+}
+}
