@@ -89,7 +89,7 @@
 <button class="cta-btn"> <a href="{{route('register')}}" >Start Trading</a></button>
 <div style="border-left: 1px solid black;margin-top: 40px;padding: 15px;">
 <h1 id="demo"></h1>
-<h5>TRADES OPENED ON {{$compd? $compd->Companyname: 'FUNDLUX'}} FINANCIALS</h5>
+<h5>TRADES OPENED ON {{$compd? $compd->Companyname: 'Coming soon'}} FINANCIALS</h5>
 <script>
 
  let interval = setInterval(function(){
@@ -246,7 +246,7 @@ setInterval(function(){
          <img src="{{asset('images/data-icon.svg')}}" width="30" height="30"/>
          <h3>Cryptocurrency</h3>
          <figcaption>
-             <p>{{$compd? $compd->Companyname: 'Fundlux'}} offers all traders the opportunity to trade a wide range of the top ranked digital coins all hours of the day. Cryptocurrencies have become well known to people, surprisingly as it might be, anyone can invest in the crypto market to make a profit.</p>
+             <p>{{$compd? $compd->Companyname: 'Coming soon'}} offers all traders the opportunity to trade a wide range of the top ranked digital coins all hours of the day. Cryptocurrencies have become well known to people, surprisingly as it might be, anyone can invest in the crypto market to make a profit.</p>
              <a class="invest-button" href="{{route('register')}}">Invest</a>
          </figcaption>
      </figure>
@@ -692,9 +692,9 @@ setInterval(function(){
 <div class="index-about-section">
  <div class="image-container"><img src="{{asset('images/blockchain_white.png')}}"></div>
  <div>
-   <h3>{{$compd? $compd->Companyname: 'FUNDLUX'}}</h3>
+   <h3>{{$compd? $compd->Companyname: 'Coming soon'}}</h3>
    <p>
-    {{$compd? $compd->Companyname: 'Fundlux'}} Investement Company is a distinctive investment Company offering our investors access to high growth investment opportunities in Bitcoin markets and other service. We implement best practice of trading &amp; mining of Bitcoins through our operations, While offering flexibility in our investment plans. Our company benefits from an extensive network of global clients.
+    {{$compd? $compd->Companyname: 'Coming soon'}} Investement Company is a distinctive investment Company offering our investors access to high growth investment opportunities in Bitcoin markets and other service. We implement best practice of trading &amp; mining of Bitcoins through our operations, While offering flexibility in our investment plans. Our company benefits from an extensive network of global clients.
      
    </p>
  </div>

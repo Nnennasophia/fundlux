@@ -23,7 +23,7 @@
     <link href="{{asset('recent-font\font-awesome/css/font-awesome.min.css')}}" rel="stylesheet"/>
     <link href="{{asset('recent-font\font-awesome/css/font-awesome.css')}}" rel="stylesheet"/>
     <link href="{{asset('recent-font\font-awesome/css/font-awesome.css.map')}}" rel="stylesheet"/>
-    <title>{{$compd? $compd->Companyname: 'Fundlux'}}</title>
+    <title>{{$compd? $compd->Companyname: 'Coming soon'}}</title>
 </head>
 <body>
     <!-- The site header naviagtion -->
@@ -131,7 +131,7 @@
             </li>
         </ul>
     </nav>
-    <small class="footer-copyright">Fundlux-Finance Limited</small>
+    <small class="footer-copyright">Fundflux-Finance Limited</small>
 </footer>
 
 <!-- embended script -->

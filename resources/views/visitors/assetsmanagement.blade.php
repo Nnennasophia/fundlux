@@ -24,20 +24,20 @@
 <section>
 <h1>our assets under management</h1>
 <p>
-    Founded in 2000, {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management is an investment adviser with over $165 billion under management.{{$compd? $compd->Companyname: 'Fundlux'}} Financial Management maintains three principal businesses: the Private Client Group, Institutional Group and 401(k) Solutions
+    Founded in 2000, {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management is an investment adviser with over $165 billion under management.{{$compd? $compd->Companyname: 'Coming soon'}} Financial Management maintains three principal businesses: the Private Client Group, Institutional Group and 401(k) Solutions
 </p>
 <ul>
     <li>
-        {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management are investment advisers with over $165 billion under management.{{$compd? $compd->Companyname: 'Fundlux'}} Financial Management maintains three principal businesses: the Private Client Group, Institutional Group and 401(k) Solutions.
+        {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management are investment advisers with over $165 billion under management.{{$compd? $compd->Companyname: 'Coming soon'}} Financial Management maintains three principal businesses: the Private Client Group, Institutional Group and 401(k) Solutions.
     </li>
     <li>
-        The Private Client Group within {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management and its affiliates manage over $50 billion for families and individuals around the world. Clients receive personalized portfolio strategies tailored to their situation and investment goals.
+        The Private Client Group within {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management and its affiliates manage over $50 billion for families and individuals around the world. Clients receive personalized portfolio strategies tailored to their situation and investment goals.
     </li>
     <li>
-        {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management Institutional Group manages over $40 billion for organizations including corporate, public and multi-employer pension funds; foundations and endowments; insurance companies; healthcare organizations; governments; and investment companies. Clients across the world rely on {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management and its subsidiaries for a broad array of US, non-US and global investment portfolio strategies with various capitalization and style orientations, including environmental, social and governance (ESG) strategies.
+        {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management Institutional Group manages over $40 billion for organizations including corporate, public and multi-employer pension funds; foundations and endowments; insurance companies; healthcare organizations; governments; and investment companies. Clients across the world rely on {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management and its subsidiaries for a broad array of US, non-US and global investment portfolio strategies with various capitalization and style orientations, including environmental, social and governance (ESG) strategies.
     </li>
     <li>
-        {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management 401(k) Solutions Group manages over $30 billion for small- to mid-sized corporate-sponsored retirement plans in the US. Employers rely on 401(k) Solutions to provide investment solutions, employee services, administrative support and fiduciary responsibility
+        {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management 401(k) Solutions Group manages over $30 billion for small- to mid-sized corporate-sponsored retirement plans in the US. Employers rely on 401(k) Solutions to provide investment solutions, employee services, administrative support and fiduciary responsibility
     </li>
 </ul>
 </section>

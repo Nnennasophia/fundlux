@@ -37,7 +37,7 @@
  		<h4>Our Cryptocurrency Mining Operations</h4>
  		<p>
  			We provide a multi-algorithm, multi-coin cloud mining service using the latest technology - without any pool fees. The ultimate goal of our mining operation is to make cryptocurrency mining an easy, smart, and rewarding experience for all. Our services already attracted more than 2,000 active clients. <br>
- 			Our Mining facility is being continuously upgraded for mining state-of-the-art Blockchain technology. Fundlux’s computational performance is achieved with specifically designed mining rigs that efficiently mine hashing algorithms for various cryptocurrencies such as Bitcoin, Ethereum, Zcash, Dash, Monero, and others.
+ 			Our Mining facility is being continuously upgraded for mining state-of-the-art Blockchain technology. Coming soon’s computational performance is achieved with specifically designed mining rigs that efficiently mine hashing algorithms for various cryptocurrencies such as Bitcoin, Ethereum, Zcash, Dash, Monero, and others.
 Our Mining equipments are powered by a setup of optimized GPUs (graphic processing units). These GPUs are placed in ‘Rigs’ which are specifically designed to house as much hashing power as efficiently as possible. The miner's software is configured for maximum performance by mining Kernels (hardware operating systems) like that we’ve developed in-house.
  		</p>
  	</div>

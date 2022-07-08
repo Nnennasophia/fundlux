@@ -25,7 +25,7 @@
     <div class="paragraph">
         <h1>client education</h1>
         <p>
-            As {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management's client, we want you to understand what’s going on with your portfolio and, more importantly, the reasoning behind our decision making. That’s why we have multiple ways we regularly keep you up-to-date and informed on the markets, our outlook and the reasoning behind our strategic portfolio decisions
+            As {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management's client, we want you to understand what’s going on with your portfolio and, more importantly, the reasoning behind our decision making. That’s why we have multiple ways we regularly keep you up-to-date and informed on the markets, our outlook and the reasoning behind our strategic portfolio decisions
         </p>
         <h4>quarterly review</h4>
         <p>
@@ -41,13 +41,13 @@
         </p>
         <h4>MarketMinder</h4>
         <p>
-            This commentary, now available to the general public, was originally created for Fundlux Financial Management's clients. MarketMinder is a source of “straight talk” about the financial markets, with the goal of helping investors understand whether market events are bullish or bearish, and why. The articles are updated every business day by Fundlux Financial Managements’ editorial staff, who scour over 100 periodicals, blogs and other sources to identify relevant financial news. We provide daily commentary on the markets and highlight stories in the financial media we believe investors should either pay attention to, or ignore.
+            This commentary, now available to the general public, was originally created for Coming soon Financial Management's clients. MarketMinder is a source of “straight talk” about the financial markets, with the goal of helping investors understand whether market events are bullish or bearish, and why. The articles are updated every business day by Coming soon Financial Managements’ editorial staff, who scour over 100 periodicals, blogs and other sources to identify relevant financial news. We provide daily commentary on the markets and highlight stories in the financial media we believe investors should either pay attention to, or ignore.
         </p>
     </div>
     <div class="paragraph">
         <h2>high touch client services</h2>
         <p>
-           At {{$compd? $compd->Companyname: 'Fundlux'}} Financial Management, portfolio management is only half the picture. Of equal, if not more, importance is our personalized service. We commit ourselves to understanding your financial needs and giving you the confidence and comfort necessary to help you reach your long-term investing goals.
+           At {{$compd? $compd->Companyname: 'Coming soon'}} Financial Management, portfolio management is only half the picture. Of equal, if not more, importance is our personalized service. We commit ourselves to understanding your financial needs and giving you the confidence and comfort necessary to help you reach your long-term investing goals.
         </p>
         <p>
             <strong class="aboutus-text-caption">Education and Information</strong> We want our clients to understand what’s going on with their portfolios and, more importantly, the reasoning behind our decisions. That’s why we have multiple ways we regularly keep you up-to-date and informed on the markets, our outlook and what drives our strategic portfolio decisions.
@@ -56,7 +56,7 @@
     <div class="paragraph">
         <h2>client programs</h2>
         <p>
-            We continually seeks new ways to enrich your client experience. In addition to helping you achieve your long-term financial goals via portfolio management, we host a series of programs to provide you with timely updates and education regarding the financial markets and your portfolio. We designed these events, held in more than 60 cities nationwide, exclusively for clients of Fundlux Financial Management to offer unprecedented access to senior decision makers and other clients of the firm. Examples include Fundlux Financial Management Forecast Seminars, Investment Roundtables, Fundlux Financial Management Friends events, and more. There is no additional cost to our clients for these events, and we encourage you to attend as many as you would like each year.
+            We continually seeks new ways to enrich your client experience. In addition to helping you achieve your long-term financial goals via portfolio management, we host a series of programs to provide you with timely updates and education regarding the financial markets and your portfolio. We designed these events, held in more than 60 cities nationwide, exclusively for clients of Coming soon Financial Management to offer unprecedented access to senior decision makers and other clients of the firm. Examples include Coming soon Financial Management Forecast Seminars, Investment Roundtables, Coming soon Financial Management Friends events, and more. There is no additional cost to our clients for these events, and we encourage you to attend as many as you would like each year.
         </p>
         <p>
             This high level of client support and proactive customer service is a cornerstone of our Private Client Group. While most of our industry typically reserves these type of services for institutional investors, we are proud to offer the highest level of customer service to all of our clients whether they’re individual investors or institutions.
