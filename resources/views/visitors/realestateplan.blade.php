@@ -10,7 +10,7 @@
 	<section>
 		<div class="paragraph realestate-header header">
     		<h1>
-    			<span class="line"></span>fundlux fx <span class="line"></span>
+    			<span class="line"></span>fundflux fx <span class="line"></span>
     		</h1>
     	</div>
     	<div class="paragraph">

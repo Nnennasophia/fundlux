@@ -12,9 +12,9 @@
   <div class="access-row">
   <div class="access access-icons">
   <ul>
-  <li><a href="#"><span class="fa fa-map-marker" aria-hidden='true'></span> Map</a></li>
-  <li><a href="#"><span class="fa fa-envelope" aria-hidden='true'></span> E-mail</a></li>
-  <li><a href="#"><span class="fa fa-whatsapp" aria-hidden='true'></span> Whatsapp</a></li>
+  <li><a href="#"><span class="fa fa-map-marker" aria-hidden='true'></span> {{$compd? $compd->Companylocation: 'Coming soon'}}</a></li>
+  <li><a href="#"><span class="fa fa-envelope" aria-hidden='true'></span>{{$compd? $compd->Companyemail: 'Coming soon'}}</a></li>
+  <li><a href="#"><span class="fa fa-whatsapp" aria-hidden='true'></span> {{$compd? $compd->Companyphone: 'Coming soon'}}</a></li>
   <!-- <li><a href="#"><span class="fa fa-phone" aria-hidden='true'></span> Phone </a></li> -->
   </ul> 
    </div>

@@ -7,7 +7,7 @@
  <section>
  	<div class="paragraph oilandgas-header header">
     		<h1>
-    			<span class="line"></span> Fundlux fx <span class="line"></span>
+    			<span class="line"></span> Fundflux fx <span class="line"></span>
     		</h1>
     	</div>
     	<div class="paragraph">

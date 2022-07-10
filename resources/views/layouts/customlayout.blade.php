@@ -101,7 +101,7 @@
                     </li>
                 </ul>
             </nav>
-            <small class="footer-copyright">Fundlux-Finance Limited</small>
+            <small class="footer-copyright">Fundflux-Finance Limited</small>
         </footer>
 
         <!-- embended script -->

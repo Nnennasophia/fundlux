@@ -8,7 +8,7 @@
  <section>
  	<div class="paragraph legal-header">
     		<h1>
-    			<span class="line"></span> Fundlux fx <span class="line"></span>
+    			<span class="line"></span> Fundflux fx <span class="line"></span>
     		</h1>
     	</div>
     	<div class="paragraph">
@@ -29,7 +29,7 @@
  <section>
      <h3>Quadruple Your Retirement Savings&quest; Really?</h3>
      <p>
-         Fundlux fx study of worldwide retirement saving habits discovered that people with some kind of retirement plan have more than three times as much in their nest egg than those with no plan at all. And savers who take it one step further by working with an investing advisor to put their plan to paper? Their average nest egg is a whopping 445% bigger than non-planners. That’s a big deal! Now, did you catch that? By working with an advisor and by having a plan in place, you can supercharge your retirement savings.
+         Fundflux fx study of worldwide retirement saving habits discovered that people with some kind of retirement plan have more than three times as much in their nest egg than those with no plan at all. And savers who take it one step further by working with an investing advisor to put their plan to paper? Their average nest egg is a whopping 445% bigger than non-planners. That’s a big deal! Now, did you catch that? By working with an advisor and by having a plan in place, you can supercharge your retirement savings.
      </p>
  </section>
 
