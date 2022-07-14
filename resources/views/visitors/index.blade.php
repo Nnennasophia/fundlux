@@ -391,84 +391,11 @@ setInterval(function(){
  
   <!-- space div -->
   <div class="index-line-div"></div>
+<div id="aboutus" class="last-section"><h1> Recent Transactions</h1> </div>
+  <iframe
+  src="https://www.btcwidget.info/widget/liveTx/%235dbcd2/%23ffffff/%235e2ead/%23042f66/%23042f66/800/400/10"
+  width="800" height="400" frameBorder="0" scrolling="no"></iframe> </iframe> 
 
-  <div class="latest-transaction">
-    <div class="latest latest-deposits">
-      <p>Latest Deposits</p>
-      <div class="latest-items">
-        <figure>
-          <img src="{{asset('images/avatar2.svg')}}" width="40" height="40">
-          <h4 class="author">wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="{{asset('images/avatar3.svg')}}" width="40" height="40">
-          <h4 class="author">***wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="{{asset('images/avatar4.svg')}}" width="40" height="40">
-          <h4 class="author">***wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="{{asset('images/avatar1.svg')}}" width="40" height="40">
-          <h4 class="author">***wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="latest latest-withdrawals">
-      <p>Latest Withdrawals</p>
-      <div class="latest-items">
-        <figure>
-          <img src="{{asset('images/avatar2.svg')}}" width="40" height="40" >
-          <h4 class="author">wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="{{asset('images/avatar3.svg')}}" width="40" height="40">
-          <h4 class="author">***wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="{{asset('images/avatar4.svg')}}" width="40" height="40">
-          <h4 class="author">***wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="{{asset('images/avatar4.svg')}}" width="40" height="40">
-          <h4 class="author">***wrwmgnJNdjfji2</h4>
-          <figcaption class="items-caption">
-            <p>59,000.45</p>
-            <span>4.494 BTC</span>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- why choose us section ends -->
 
